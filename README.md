@@ -1,4 +1,4 @@
-# <img alt="" align="right" src="https://img.shields.io/badge/IDE-Visual%20Studio-informational?style=flat&logo=Visual%20Studio&logoColor=white&color=5C2D91" /> <img alt="" align="right" src="https://img.shields.io/badge/Platform-STM32F4-informational?style=flat&logo=STMicroelectronics&logoColor=white&color=03234B" />
+#BTT-GTR-V1-PnP <img alt="" align="right" src="https://img.shields.io/badge/IDE-Visual%20Studio-informational?style=flat&logo=Visual%20Studio&logoColor=white&color=5C2D91" /> <img alt="" align="right" src="https://img.shields.io/badge/Platform-STM32F4-informational?style=flat&logo=STMicroelectronics&logoColor=white&color=03234B" />
 
 ### **Project**: Pick and Place Expansion Board For BIGTREETECH GTR V1.0<img alt="" align="right" src="https://img.shields.io/badge/Status-Proof%20of%20Concept-informational?style=flat&logoColor=white&color=00ADD8" />
 
