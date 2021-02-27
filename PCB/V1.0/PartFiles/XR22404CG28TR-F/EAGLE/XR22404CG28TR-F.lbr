@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/2782489/100519/2.48/28/3/Integrated Circuit/-->
+<!DOCTYPE curve SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;IC USB 2.0 4-PORT HUB 28SSOP&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOP64P600X173-28N">
+<description>&lt;b&gt;SSOP-28&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.712" y="4.128" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="2" x="-2.712" y="3.492" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="3" x="-2.712" y="2.858" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="4" x="-2.712" y="2.222" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="5" x="-2.712" y="1.588" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="6" x="-2.712" y="0.952" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="7" x="-2.712" y="0.318" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="8" x="-2.712" y="-0.318" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="9" x="-2.712" y="-0.952" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="10" x="-2.712" y="-1.588" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="11" x="-2.712" y="-2.222" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="12" x="-2.712" y="-2.858" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="13" x="-2.712" y="-3.492" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="14" x="-2.712" y="-4.128" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="15" x="2.712" y="-4.128" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="16" x="2.712" y="-3.492" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="17" x="2.712" y="-2.858" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="18" x="2.712" y="-2.222" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="19" x="2.712" y="-1.588" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="20" x="2.712" y="-0.952" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="21" x="2.712" y="-0.318" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="22" x="2.712" y="0.318" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="23" x="2.712" y="0.952" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="24" x="2.712" y="1.588" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="25" x="2.712" y="2.222" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="26" x="2.712" y="2.858" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="27" x="2.712" y="3.492" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<smd name="28" x="2.712" y="4.128" dx="1.525" dy="0.435" layer="1" rot="R0"/>
+<text x="0" y="0" align="center" size="1.27" layer="25" rot="R0" >&gt;NAME</text>
+<text x="0" y="0" align="center" size="1.27" layer="27" rot="R0" >&gt;VALUE</text>
+<wire x1="-3.725" y1="5.255" x2="3.725" y2="5.255" width="0.05" layer="51"/>
+<wire x1="3.725" y1="5.255" x2="3.725" y2="-5.255" width="0.05" layer="51"/>
+<wire x1="3.725" y1="-5.255" x2="-3.725" y2="-5.255" width="0.05" layer="51"/>
+<wire x1="-3.725" y1="-5.255" x2="-3.725" y2="5.255" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="4.952" x2="1.95" y2="4.952" width="0.1" layer="51"/>
+<wire x1="1.95" y1="4.952" x2="1.95" y2="-4.952" width="0.1" layer="51"/>
+<wire x1="1.95" y1="-4.952" x2="-1.95" y2="-4.952" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="-4.952" x2="-1.95" y2="4.952" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="4.318" x2="-1.315" y2="4.952" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="4.952" x2="1.6" y2="4.952" width="0.2" layer="21"/>
+<wire x1="1.6" y1="4.952" x2="1.6" y2="-4.952" width="0.2" layer="21"/>
+<wire x1="1.6" y1="-4.952" x2="-1.6" y2="-4.952" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="-4.952" x2="-1.6" y2="4.952" width="0.2" layer="21"/>
+<wire x1="-3.475" y1="4.695" x2="-1.95" y2="4.695" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="XR22404CG28TR-F">
+<wire x1="5.08" y1="2.54" x2="40.64" y2="2.54" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-35.56" x2="40.64" y2="2.54" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-35.56" x2="5.08" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-35.56" width="0.254" layer="94"/>
+<text x="41.91" y="7.62" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="41.91" y="5.08" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="0" length="middle" direction="pwr" rot="R0"/>
+<pin name="XTALOUT" x="0" y="-2.54" length="middle" direction="io" rot="R0"/>
+<pin name="XTALIN" x="0" y="-5.08" length="middle" direction="io" rot="R0"/>
+<pin name="DM4" x="0" y="-7.62" length="middle" direction="io" rot="R0"/>
+<pin name="DP4" x="0" y="-10.16" length="middle" direction="io" rot="R0"/>
+<pin name="DM3" x="0" y="-12.7" length="middle" direction="io" rot="R0"/>
+<pin name="DP3" x="0" y="-15.24" length="middle" direction="io" rot="R0"/>
+<pin name="DM2" x="0" y="-17.78" length="middle" direction="io" rot="R0"/>
+<pin name="DP2" x="0" y="-20.32" length="middle" direction="io" rot="R0"/>
+<pin name="DM1" x="0" y="-22.86" length="middle" direction="io" rot="R0"/>
+<pin name="DP1" x="0" y="-25.4" length="middle" direction="io" rot="R0"/>
+<pin name="TEST2" x="0" y="-27.94" length="middle" direction="io" rot="R0"/>
+<pin name="TEST3" x="0" y="-30.48" length="middle" direction="io" rot="R0"/>
+<pin name="REXT" x="0" y="-33.02" length="middle" direction="io" rot="R0"/>
+<pin name="TEST4" x="45.72" y="0" length="middle" direction="io" rot="R180"/>
+<pin name="TEST#/SDA" x="45.72" y="-2.54" length="middle" direction="io" rot="R180"/>
+<pin name="OVC#" x="45.72" y="-5.08" length="middle" direction="io" rot="R180"/>
+<pin name="PWR#" x="45.72" y="-7.62" length="middle" direction="io" rot="R180"/>
+<pin name="LED2" x="45.72" y="-10.16" length="middle" direction="io" rot="R180"/>
+<pin name="LED1/SCL" x="45.72" y="-12.7" length="middle" direction="io" rot="R180"/>
+<pin name="LED_CTL/CHRGEN" x="45.72" y="-15.24" length="middle" direction="io" rot="R180"/>
+<pin name="VCC33" x="45.72" y="-17.78" length="middle" direction="io" rot="R180"/>
+<pin name="VCC5" x="45.72" y="-20.32" length="middle" direction="io" rot="R180"/>
+<pin name="BUS_PWR#" x="45.72" y="-22.86" length="middle" direction="io" rot="R180"/>
+<pin name="VBUS_SENSE" x="45.72" y="-25.4" length="middle" direction="io" rot="R180"/>
+<pin name="EXT_RST#" x="45.72" y="-27.94" length="middle" direction="io" rot="R180"/>
+<pin name="UP_DP" x="45.72" y="-30.48" length="middle" direction="io" rot="R180"/>
+<pin name="UP_DM" x="45.72" y="-33.02" length="middle" direction="io" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="XR22404CG28TR-F" prefix="IC">
+<description>&lt;b&gt;IC USB 2.0 4-PORT HUB 28SSOP&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.maxlinear.com/document?id=22105"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="XR22404CG28TR-F" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOP64P600X173-28N">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="XTALOUT" pad="2"/>
+<connect gate="G$1" pin="XTALIN" pad="3"/>
+<connect gate="G$1" pin="DM4" pad="4"/>
+<connect gate="G$1" pin="DP4" pad="5"/>
+<connect gate="G$1" pin="DM3" pad="6"/>
+<connect gate="G$1" pin="DP3" pad="7"/>
+<connect gate="G$1" pin="DM2" pad="8"/>
+<connect gate="G$1" pin="DP2" pad="9"/>
+<connect gate="G$1" pin="DM1" pad="10"/>
+<connect gate="G$1" pin="DP1" pad="11"/>
+<connect gate="G$1" pin="TEST2" pad="12"/>
+<connect gate="G$1" pin="TEST3" pad="13"/>
+<connect gate="G$1" pin="REXT" pad="14"/>
+<connect gate="G$1" pin="UP_DM" pad="15"/>
+<connect gate="G$1" pin="UP_DP" pad="16"/>
+<connect gate="G$1" pin="EXT_RST#" pad="17"/>
+<connect gate="G$1" pin="VBUS_SENSE" pad="18"/>
+<connect gate="G$1" pin="BUS_PWR#" pad="19"/>
+<connect gate="G$1" pin="VCC5" pad="20"/>
+<connect gate="G$1" pin="VCC33" pad="21"/>
+<connect gate="G$1" pin="LED_CTL/CHRGEN" pad="22"/>
+<connect gate="G$1" pin="LED1/SCL" pad="23"/>
+<connect gate="G$1" pin="LED2" pad="24"/>
+<connect gate="G$1" pin="PWR#" pad="25"/>
+<connect gate="G$1" pin="OVC#" pad="26"/>
+<connect gate="G$1" pin="TEST#/SDA" pad="27"/>
+<connect gate="G$1" pin="TEST4" pad="28"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Manufacturer_Name" value="MaxLinear, Inc." constant="no"/>
+<attribute name="Manufacturer_Part_Number" value="XR22404CG28TR-F" constant="no"/>
+<attribute name="Mouser_Part_Number" value="701-XR22404CG28TR-F" constant="no"/>
+<attribute name="Mouser_Price-Stock" value="https://www.mouser.co.uk/ProductDetail/MaxLinear/XR22404CG28TR-F?qs=pMEWzlIAYnay3yoEWcwQ0g%3D%3D" constant="no"/>
+<attribute name="Arrow_Part_Number" value="" constant="no"/>
+<attribute name="Arrow_Price-Stock" value="" constant="no"/>
+<attribute name="Description" value="IC USB 2.0 4-PORT HUB 28SSOP" constant="no"/>
+<attribute name="Height" value="1.73mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

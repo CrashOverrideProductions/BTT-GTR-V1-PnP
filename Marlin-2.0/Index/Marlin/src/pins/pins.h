@@ -612,6 +612,8 @@
   #include "stm32f4/pins_INDEX_REV01.h"
 #elif MB(INDEX_REV02)
   #include "stm32f4/pins_INDEX_REV02.h"
+#elif MB(BOARD_BTT_GTR_V1_0_PnP)
+  #include "stm32f4/pins_BTT_GTR_V1_0_PnP.h"
 //
 // ARM Cortex M7
 //
