@@ -17,19 +17,17 @@ The Goal of this Project is to Create an Expansion Board for the BIGTREETECH 32-
 
 <!-- To Do List -->
 ### Project To Do List
-- [ ] Design Expansion Board
-- [ ] Import Marlin
-- [ ] Import Modified Marlin for PnP (https://github.com/sphawes/index)
+- [X] Design Expansion Board
+- [X] Import Marlin
+- [X] Import Modified Marlin for PnP (https://github.com/sphawes/index)
+- [ ] Create Marlin Board Definition
+- [ ] Define RS-485 Communications
 
 ### Expansion Board To Do List
-- [ ] USB Hub
-- [ ] Vaccuum Sensors
-- [ ] RS-485
+- [X] USB Hub
+- [X] Vaccuum Sensors
+- [X] RS-485
 - [ ] More to Add I'm Sure
-
-### Repo To Do List
-- [ ] More to add as i think of it
-
 
 <!-- Licencing Always at the Bottom -->
 ### Licencing <img alt="" align="right" src="https://img.shields.io/badge/Licence-CC--BY--NC--SA--4.0-informational?style=flat&logo=Creative%20Commons&logoColor=white&color=EF9421" />
